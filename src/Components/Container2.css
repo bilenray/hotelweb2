@@ -1,0 +1,40 @@
+
+a{
+    text-decoration: none;
+}
+.tabContainer{
+    padding:50px;
+}
+
+.cont2R1{ /*first row of the paragraph*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.bloc-tabs{ /*for different tabs to apply css in tab block row*/
+    margin:0px;
+}
+
+button{
+  height:50px;
+  background-color: transparent;
+  border:none;
+  width:100px;
+}
+
+.active-tabs{
+    border-top:5px solid yellow;
+    color:gold;
+    font-size:larger;
+    font-weight: bolder;
+}
+/*for tab*/
+.content {
+    background: white;
+    display: none;
+  }
+
+.active-content {
+    display:flex;
+  }
+

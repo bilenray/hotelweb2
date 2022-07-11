@@ -1,0 +1,30 @@
+.Container4{
+    background-color: crimson;
+    padding:10px;
+}
+li{
+    list-style:none;
+}
+
+
+.Container4> .logo{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.Cont4R2{
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.Cont4R2>div>h1{
+    border-left:10px solid rgb(238, 130, 130);
+    padding-left:2px;
+}
+
+.mediaIcon{
+    display:flex;
+    justify-content: space-evenly;
+}
